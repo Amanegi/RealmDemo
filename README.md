@@ -26,9 +26,9 @@ buildscript {
 
 Step 2: Apply the realm-android plugin to the top of the application level build.gradle file.
 
-apply plugin: 'realm-android'
+    apply plugin: 'realm-android'
 
 ## Note:
 
-To remove error "User is not a part of the Realm Object", simply deleted the generatedJava folder in android project.
+To remove error "User is not a part of the Realm Object", simply delete the generatedJava folder in android project.
 
