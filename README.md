@@ -8,21 +8,14 @@ Get started in minutes, not hours.
 
 Step 1: Add the class path dependency to the project level build.gradle file.
 
-buildscript {
-
-    repositories {
-
-        jcenter()
-
-    }
-
-    dependencies {
-
-        classpath "io.realm:realm-gradle-plugin:5.9.0"
-
-    }
-
-}
+    buildscript {   
+         repositories {        
+                jcenter()
+         }
+         dependencies {
+                classpath "io.realm:realm-gradle-plugin:5.9.0"
+         }
+     }
 
 Step 2: Apply the realm-android plugin to the top of the application level build.gradle file.
 
